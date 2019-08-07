@@ -1,0 +1,24 @@
+program teste; {exemplo}
+var
+	valor1, a,b,y,add, valor2: integer;
+
+procedure add(i: integer);
+begin
+  
+  valor1:=1;
+  valor2:=2;
+      i:= valor1 + valor2;
+            
+end;
+
+procedure sub(i: integer);
+begin
+            a:=15;
+            b:=20;
+            if a>b then
+                begin
+                a:= a + 5;
+                end;
+            else
+			    add(a);
+end.
